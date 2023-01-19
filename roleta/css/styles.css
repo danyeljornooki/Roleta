@@ -8,11 +8,12 @@
     font-size: 25px;
     padding: 140px 0px 0px 50px;
     background-image: url("../image/back.png");
-    background-size: cover;
+    background-size:100%;
     background-repeat: no-repeat;
     background-color: #11161A;
     opacity: 1;
     color: #F1F1F1;
+    background-size: cover;
 }
 
 .choise{

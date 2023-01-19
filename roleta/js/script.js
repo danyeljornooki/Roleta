@@ -5,7 +5,8 @@ function ocultar() {
 }
 
 function exibir() {
-    window.location.reload(true);
+    document.getElementById("choise").style.display = "block";
+    document.getElementById("roleta_val").style.display = "none";
 }
 
 function playOnClick() {   
@@ -18,7 +19,7 @@ function playOnClick() {
     globalObjects.timeInitial = new Date();
     globalObjects.btnPlay.style.visibility = "hidden";
     globalObjects.btnStop.style.visibility = "visible";
-    globalObjects.roleta.style.animation = "roleta 00.1s linear infinite";
+    globalObjects.roleta.style.animation = "roleta 00.4s linear infinite";
 }
 
 
